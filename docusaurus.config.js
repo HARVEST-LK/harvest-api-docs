@@ -11,8 +11,10 @@ const config = {
     v4: true,
   },
 
-  url: "https://your-site.com",
-
+  // REQUIRED FOR GITHUB PAGES
+  url: "https://HARVEST-LK.github.io",
+  baseUrl: "/harvest-api-docs/",
+  organizationName: "HARVEST-LK",
   projectName: "harvest-api-docs",
 
   onBrokenLinks: "throw",
@@ -48,7 +50,7 @@ const config = {
       title: "HARVEST API",
       logo: {
         alt: "Harvest Logo",
-        src: "img/logo.png", // <-- YOU WILL PLACE YOUR LOGO HERE
+        src: "img/logo.png",
       },
       items: [
         {
