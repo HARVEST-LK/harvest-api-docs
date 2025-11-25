@@ -30,6 +30,13 @@ const sidebars = {
       label: "File Upload",
       items: ["api/fileUpload"],
     },
+
+    // ✅ ADD THIS BLOCK
+    {
+      type: "category",
+      label: "Database Documentation",
+      items: ["api/DatabaseDocumentation"],
+    },
   ],
 };
 
